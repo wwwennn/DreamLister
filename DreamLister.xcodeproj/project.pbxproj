@@ -15,6 +15,8 @@
 		6282623D1E482D660034E874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6282623B1E482D660034E874 /* LaunchScreen.storyboard */; };
 		628262581E483CAB0034E874 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628262571E483CAB0034E874 /* MaterialView.swift */; };
 		6282625A1E4840340034E874 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628262591E4840340034E874 /* ItemCell.swift */; };
+		6282625D1E495C830034E874 /* ItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6282625C1E495C830034E874 /* ItemDetailsVC.swift */; };
+		6282625F1E495F6B0034E874 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6282625E1E495F6B0034E874 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		6282623E1E482D660034E874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		628262571E483CAB0034E874 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		628262591E4840340034E874 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		6282625C1E495C830034E874 /* ItemDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsVC.swift; sourceTree = "<group>"; };
+		6282625E1E495F6B0034E874 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,9 @@
 		6282622E1E482D660034E874 /* DreamLister */ = {
 			isa = PBXGroup;
 			children = (
+				6282625B1E495C4F0034E874 /* Controller */,
 				628262561E483C950034E874 /* View */,
 				6282622F1E482D660034E874 /* AppDelegate.swift */,
-				628262311E482D660034E874 /* MainVC.swift */,
 				628262331E482D660034E874 /* Main.storyboard */,
 				628262391E482D660034E874 /* Assets.xcassets */,
 				6282623B1E482D660034E874 /* LaunchScreen.storyboard */,
@@ -79,6 +83,16 @@
 				628262591E4840340034E874 /* ItemCell.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		6282625B1E495C4F0034E874 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				628262311E482D660034E874 /* MainVC.swift */,
+				6282625C1E495C830034E874 /* ItemDetailsVC.swift */,
+				6282625E1E495F6B0034E874 /* CustomTextField.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +167,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6282625F1E495F6B0034E874 /* CustomTextField.swift in Sources */,
+				6282625D1E495C830034E874 /* ItemDetailsVC.swift in Sources */,
 				628262321E482D660034E874 /* MainVC.swift in Sources */,
 				628262301E482D660034E874 /* AppDelegate.swift in Sources */,
 				628262381E482D660034E874 /* DreamLister.xcdatamodeld in Sources */,
